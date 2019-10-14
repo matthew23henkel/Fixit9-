@@ -1,0 +1,15 @@
+function addNumbers(num1,num2) {
+           return num1 + num2   
+        }
+
+ var answer = 0
+        Add.onclick=function(){     
+            lblAnswer = addNumbers(number1.value,number2.value)
+        }
+
+}
+
+reset.onclick=function(){
+  onreset() = addNumbers(num1,num2) 
+  
+}
