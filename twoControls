@@ -1,0 +1,38 @@
+let progress= [0 , 10, 20, 30, 40, 50, 60, 70, 80, 90];
+// This will allow users to select where they are at in their project 
+
+Select1.onclick=function(){
+ let  Planning = prompt("Planning");
+ let  Designing_App = prompt("Desgining App");
+ let  Adding_Data = prompt("Adding Data");
+ let  Editing = prompt("Editing")
+ let  We're_Done = prompt("Were Done");
+ 
+}
+// This code should pull the data from the select statement and display it in the progress bar 
+let reRun = true
+while (reRun == true) {
+    let type=prompt("Where are you at with your BIA 375 Group Project?")
+    type = type.toUpperCase()
+    switch (type) {
+    progressBar.onclick=function(){
+    case "Planning":
+       NSB.MsgBox('You are ${progress[1] percent complete!`).
+        break
+    case "Designing App":
+        NSB.MsgBox('You are ${progress[4] percent complete!`).
+        break
+    case "Adding data":
+        NSB.MsgBox('You are ${progress[7] percent complete!`).
+        break
+        
+     case "Editing":
+        NSB.MsgBox('You are ${progress[9] percent complete!` ).
+        break 
+        
+     case "We're done":
+        NSB.MsgBox("Congratualations you've finished").
+        break
+    }
+   
+}
