@@ -1,0 +1,12 @@
+/*
+var members = ["Mary","Sam","Joey","Paul","Mike","Char","Jenny","Kennedy","Kaden","Kurt","Anne"]
+
+checkStatusbtn.onclick=function(){
+    if (members.includes(inptFirstName.value)) {
+    membersMsg.value = "You are currently a  member!"
+} else {
+    members.push(inptFirstName.value)
+    membersMsg.value = "You have now been added to the list!"
+    }
+}
+*/
